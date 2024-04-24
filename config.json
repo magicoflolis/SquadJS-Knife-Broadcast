@@ -28,7 +28,15 @@
         "BP_SKS_Optic_Bayonet",
         "BP_SOCP_Knife_AUS",
         "BP_SOCP_Knife_ADF",
-        "BP_VibroBlade_Knife_GC"
+        "BP_VibroBlade_Knife_GC",
+        "BP_SOCP_Knife_ADF_C",
+        "BP_SA80Bayonet_C",
+        "BP_Bayonet2000_C",
+        "BP_AKMBayonet_C",
+        "BP_G3Bayonet_C",
+        "BP_M9Bayonet_C",
+        "BP_SKS_Bayonet_C",
+        "BP_OKC-3S_C"
       ]
     }
   ]
