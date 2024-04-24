@@ -24,7 +24,7 @@ export default class KnifeBroadcast extends BasePlugin {
         required: false,
         description: "Broadcast message",
         default: "{{attacker}} {{message}} {{victim}}",
-        example: "Cerberus ({{attacker}} {{message}} {{victim}})",
+        example: "Cerberus ({{attacker}} {{message}} {{victim}})"
       },
       knifeArr: {
         required: false,
@@ -38,9 +38,9 @@ export default class KnifeBroadcast extends BasePlugin {
           "PAPER CUT",
           "RAZORED",
           "EDWARD SCISSOR HAND'D",
-          "FRUIT NINJA'D",
+          "FRUIT NINJA'D"
         ],
-        example: ["KNIFED"],
+        example: ["KNIFED"]
       },
       knives: {
         required: false,
@@ -58,10 +58,10 @@ export default class KnifeBroadcast extends BasePlugin {
           "BP_SKS_Optic_Bayonet",
           "BP_SOCP_Knife_AUS",
           "BP_SOCP_Knife_ADF",
-          "BP_VibroBlade_Knife_GC",
+          "BP_VibroBlade_Knife_GC"
         ],
-        example: ["BP_Bayonet2000"],
-      },
+        example: ["BP_Bayonet2000"]
+      }
     };
   }
 

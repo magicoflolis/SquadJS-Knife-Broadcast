@@ -1,6 +1,13 @@
 # SquadJS Knife Broadcast
 
+[![GitHub License](https://img.shields.io/github/license/magicoflolis/SquadJS-Knife-Broadcast?style=flat-square)](https://github.com/magicoflolis/SquadJS-Knife-Broadcast/blob/main/LICENSE)
+[![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/magicoflolis/SquadJS-Knife-Broadcast?style=flat-square)](https://github.com/magicoflolis/SquadJS-Knife-Broadcast/issues)
+
 Broadcast to the Squad server when a player gets a knife kill.
+
+[[❗ New Issue](https://github.com/magicoflolis/SquadJS-Knife-Broadcast/issues/new/choose)]
+[[🔫 New Weapon ID](https://github.com/magicoflolis/SquadJS-Knife-Broadcast/issues/new?assignees=&labels=new-weapon-id%F0%9F%94%AB&projects=&template=03_new-weapon-id.yml&title=%5Bnew-id%5D%3A+)]
+[[🔫 Change a Weapon ID](https://github.com/magicoflolis/SquadJS-Knife-Broadcast/issues/new?assignees=&labels=change-weapon-id%F0%9F%94%AB&projects=&template=04_change-weapon-id.yml&title=%5Bchange-id%5D%3A+)]
 
 **Default `config.json`:**
 
@@ -12,30 +19,30 @@ Broadcast to the Squad server when a player gets a knife kill.
       "enabled": true,
       "broadcastMessage": "{{attacker}} {{message}} {{victim}}",
       "knifeArr": [
-       "KNIFED",
-       "SLICED",
-       "DICED",
-       "ICED",
-       "CUT",
-       "PAPER CUT",
-       "RAZORED",
-       "EDWARD SCISSOR HAND'D",
-       "FRUIT NINJA'D"
+        "KNIFED",
+        "SLICED",
+        "DICED",
+        "ICED",
+        "CUT",
+        "PAPER CUT",
+        "RAZORED",
+        "EDWARD SCISSOR HAND'D",
+        "FRUIT NINJA'D"
       ],
       "knives": [
-       "BP_AK74Bayonet",
-       "BP_AKMBayonet",
-       "BP_Bayonet2000",
-       "BP_G3Bayonet",
-       "BP_M9Bayonet",
-       "BP_OKC-3S",
-       "BP_QNL-95_Bayonet",
-       "BP_SA80Bayonet",
-       "BP_SKS_Bayonet",
-       "BP_SKS_Optic_Bayonet",
-       "BP_SOCP_Knife_AUS",
-       "BP_SOCP_Knife_ADF",
-       "BP_VibroBlade_Knife_GC"
+        "BP_AK74Bayonet",
+        "BP_AKMBayonet",
+        "BP_Bayonet2000",
+        "BP_G3Bayonet",
+        "BP_M9Bayonet",
+        "BP_OKC-3S",
+        "BP_QNL-95_Bayonet",
+        "BP_SA80Bayonet",
+        "BP_SKS_Bayonet",
+        "BP_SKS_Optic_Bayonet",
+        "BP_SOCP_Knife_AUS",
+        "BP_SOCP_Knife_ADF",
+        "BP_VibroBlade_Knife_GC"
       ]
     }
   ]
@@ -48,12 +55,10 @@ _Be sure to add a `,` to the end of the plugin before it._
 {
   "plugins": [
     {
-      "plugin": "Another plugin",
-      "...": "..."
+      "plugin": "Another plugin"
     },
     {
-      "plugin": "KnifeBroadcast",
-      "...": "..."
+      "plugin": "KnifeBroadcast"
     }
   ]
 }
@@ -68,10 +73,10 @@ _Be sure to add a `,` to the end of the plugin before it._
 - `{{message}}` = `random message from the "knifeArr"`
 - `{{weapon}}` = `weapon id used from the "knives"`
 
-Example:
+Example Layout:
 
-- **broadcastMessage:** - `Cerberus ({{attacker}} {{message}} {{victim}})`
-- **in-game:** - `Cerberus (Magic KNIFED Player)`
+- **broadcastMessage:** `Cerberus ({{attacker}} {{message}} {{victim}})`
+- **in-game:** `Cerberus (JetDave SLICED Magic)`
 
 **knifeArr:**
 
@@ -83,9 +88,7 @@ Example:
 
 ```json
 {
- "knifeArr": [
-   "My \"example\" string"
-  ],
+  "knifeArr": ["My \"example\" string"]
 }
 ```
 
