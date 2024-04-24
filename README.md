@@ -50,7 +50,15 @@ Broadcast to the Squad server when a player gets a knife kill.
         "BP_G3Bayonet_C",
         "BP_M9Bayonet_C",
         "BP_SKS_Bayonet_C",
-        "BP_OKC-3S_C"
+        "BP_OKC-3S_C",
+        "BP_VibroBlade_Knife_GC_C",
+        "BP_MeleeUbop_C",
+        "BP_BananaClub_C",
+        "BP_Droid_Punch_C",
+        "BP_MagnaGuard_Punch_C",
+        "BP_FAMAS_Bayonet_C",
+        "BP_FAMAS_BayonetRifle_C",
+        "BP_HK416_Bayonet_C"
       ]
     }
   ]

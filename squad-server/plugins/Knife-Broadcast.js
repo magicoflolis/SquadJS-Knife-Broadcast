@@ -58,7 +58,23 @@ export default class KnifeBroadcast extends BasePlugin {
           "BP_SKS_Optic_Bayonet",
           "BP_SOCP_Knife_AUS",
           "BP_SOCP_Knife_ADF",
-          "BP_VibroBlade_Knife_GC"
+          "BP_VibroBlade_Knife_GC",
+          "BP_SOCP_Knife_ADF_C",
+          "BP_SA80Bayonet_C",
+          "BP_Bayonet2000_C",
+          "BP_AKMBayonet_C",
+          "BP_G3Bayonet_C",
+          "BP_M9Bayonet_C",
+          "BP_SKS_Bayonet_C",
+          "BP_OKC-3S_C",
+          "BP_VibroBlade_Knife_GC_C",
+          "BP_MeleeUbop_C",
+          "BP_BananaClub_C",
+          "BP_Droid_Punch_C",
+          "BP_MagnaGuard_Punch_C",
+          "BP_FAMAS_Bayonet_C",
+          "BP_FAMAS_BayonetRifle_C",
+          "BP_HK416_Bayonet_C"
         ],
         example: ["BP_Bayonet2000"]
       }
@@ -94,7 +110,7 @@ export default class KnifeBroadcast extends BasePlugin {
         message: this.ranPick(this.knifeArr),
         weapon,
       });
-      await this.server.broadcast(knifeMsg);
+      await this.server.rcon.broadcast(knifeMsg);
     }
   }
 
