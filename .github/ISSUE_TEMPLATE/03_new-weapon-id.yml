@@ -1,0 +1,12 @@
+name: "🔫 New Weapon ID"
+description: Suggest a NEW weapon id.
+title: "[new-id]: "
+labels: ["new-weapon-id🔫"]
+body:
+  - type: input
+    id: weapon-id
+    attributes:
+      label: Weapon ID
+      description: Specify a new weapon id.
+    validations:
+      required: true

@@ -1,0 +1,15 @@
+name: "🐞 Bug"
+description: File a bug/issue
+title: "[bug]: "
+labels: ["bug 🐞"]
+body:
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the Bug
+      placeholder: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "(Optional) Recommend to attach a screenshot of the console"

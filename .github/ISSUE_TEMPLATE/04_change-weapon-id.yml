@@ -1,0 +1,19 @@
+name: "🔫 Change a Weapon ID"
+description: Suggest a CHANGE to a weapon id.
+title: "[change-id]: "
+labels: ["change-weapon-id🔫"]
+body:
+  - type: input
+    id: old-id
+    attributes:
+      label: Old Weapon ID
+      description: Specify what weapon id needs to be changed?
+    validations:
+      required: true
+  - type: input
+    id: new-id
+    attributes:
+      label: New Weapon ID
+      description: Enter the new weapon id.
+    validations:
+      required: true
