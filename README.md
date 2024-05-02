@@ -111,3 +111,11 @@ Example:
 **knives:**
 
 - `{{weapon}}` = `weapon id`
+
+---
+
+| Provider | Demo |
+|:----------:|:----------:|
+| @p.sherman42 on Discord | [Video File](./assets/How_to_make_tuli.mp4) |
+
+---
