@@ -25,3 +25,16 @@ export declare function isBlank<O>(obj: O): boolean;
  * Object is Empty
  */
 export declare function isEmpty<O>(obj: O): boolean;
+
+export interface defautOptions {
+  heli: {
+    layout: string;
+    ids: string[];
+    messages: string[];
+  },
+  knife: {
+    layout: string;
+    ids: string[];
+    messages: string[];
+  }
+}
